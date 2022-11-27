@@ -1,6 +1,19 @@
 #include <stdio.h>
+#include <stdlib.h>
+
+/* Author: Yusuf Demir - @ItsYusufDemir
+ *
+ */
+
+
+
 
 int main() {
-    printf("Hello, World!\n");
+
+
+    printf("hey");
+
+
+
     return 0;
 }
