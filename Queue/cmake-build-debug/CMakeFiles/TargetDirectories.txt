@@ -1,0 +1,3 @@
+C:/Users/james/Documents/GitHub/Data_Structures_Git/Queue/cmake-build-debug/CMakeFiles/Queue.dir
+C:/Users/james/Documents/GitHub/Data_Structures_Git/Queue/cmake-build-debug/CMakeFiles/edit_cache.dir
+C:/Users/james/Documents/GitHub/Data_Structures_Git/Queue/cmake-build-debug/CMakeFiles/rebuild_cache.dir
