@@ -1,6 +1,6 @@
 #include <stdio.h>
 #include <stdlib.h>
-/* Author: Yusuf Demir |||| GitHub-->@ItsYusufDemir
+/* Author: Yusuf Demir  |   GitHub-->@ItsYusufDemir
  * Starting date: 27.11.2022
  *
  * Project Description: Building a stack
