@@ -17,14 +17,41 @@
     </configurations>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="399090f6-cfc1-45cd-a190-e12b68cc68d1" name="Changes" comment="Binary Tree implemented. But remove function is not implemented!">
+    <list default="true" id="399090f6-cfc1-45cd-a190-e12b68cc68d1" name="Changes" comment="Delete function is implemented.">
+      <change afterPath="$PROJECT_DIR$/../StackOfTrees/.idea/StackOfTrees.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../StackOfTrees/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../StackOfTrees/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../StackOfTrees/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../StackOfTrees/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../StackOfTrees/cmake-build-debug/.cmake/api/v1/query/cache-v2" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../StackOfTrees/cmake-build-debug/.cmake/api/v1/query/cmakeFiles-v1" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../StackOfTrees/cmake-build-debug/.cmake/api/v1/query/codemodel-v2" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../StackOfTrees/cmake-build-debug/.cmake/api/v1/query/toolchains-v1" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../StackOfTrees/cmake-build-debug/.cmake/api/v1/reply/cache-v2-bd34c2c5d3e12344c912.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../StackOfTrees/cmake-build-debug/.cmake/api/v1/reply/cmakeFiles-v1-6a387bce624dac28950e.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../StackOfTrees/cmake-build-debug/.cmake/api/v1/reply/codemodel-v2-5f6cff6bdfe7edf9887d.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../StackOfTrees/cmake-build-debug/.cmake/api/v1/reply/directory-.-Debug-d0094a50bb2071803777.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../StackOfTrees/cmake-build-debug/.cmake/api/v1/reply/index-2022-12-04T15-09-52-0660.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../StackOfTrees/cmake-build-debug/.cmake/api/v1/reply/target-StackOfTrees-Debug-bb27ea58c667ca524e08.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../StackOfTrees/cmake-build-debug/.cmake/api/v1/reply/toolchains-v1-3e6b1741ae38f0623953.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../StackOfTrees/cmake-build-debug/CMakeCache.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../StackOfTrees/cmake-build-debug/CMakeFiles/3.23.2/CMakeCCompiler.cmake" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../StackOfTrees/cmake-build-debug/CMakeFiles/3.23.2/CMakeDetermineCompilerABI_C.bin" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../StackOfTrees/cmake-build-debug/CMakeFiles/3.23.2/CMakeRCCompiler.cmake" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../StackOfTrees/cmake-build-debug/CMakeFiles/3.23.2/CMakeSystem.cmake" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../StackOfTrees/cmake-build-debug/CMakeFiles/3.23.2/CompilerIdC/CMakeCCompilerId.c" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../StackOfTrees/cmake-build-debug/CMakeFiles/3.23.2/CompilerIdC/a.exe" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../StackOfTrees/cmake-build-debug/CMakeFiles/CMakeOutput.log" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../StackOfTrees/cmake-build-debug/CMakeFiles/TargetDirectories.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../StackOfTrees/cmake-build-debug/CMakeFiles/clion-environment.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../StackOfTrees/cmake-build-debug/CMakeFiles/clion-log.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../StackOfTrees/cmake-build-debug/CMakeFiles/cmake.check_cache" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../StackOfTrees/cmake-build-debug/CMakeFiles/rules.ninja" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../StackOfTrees/cmake-build-debug/Testing/Temporary/LastTest.log" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../StackOfTrees/cmake-build-debug/build.ninja" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../StackOfTrees/cmake-build-debug/cmake_install.cmake" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/.ninja_deps" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/.ninja_deps" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/.ninja_log" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/.ninja_log" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/Binary_Tree.exe" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/Binary_Tree.exe" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Binary_Tree.dir/main.c.obj" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Binary_Tree.dir/main.c.obj" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/cmake-build-debug/Testing/Temporary/LastTest.log" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/Testing/Temporary/LastTest.log" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/main.c" beforeDir="false" afterPath="$PROJECT_DIR$/main.c" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -70,11 +97,6 @@
         <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
       </method>
     </configuration>
-    <configuration default="true" type="CMakeRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" ELEVATE="false" USE_EXTERNAL_CONSOLE="false" PASS_PARENT_ENVS_2="true">
-      <method v="2">
-        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
-      </method>
-    </configuration>
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
@@ -85,7 +107,8 @@
       <option name="presentableId" value="Default" />
       <updated>1669703837141</updated>
       <workItem from="1669703839245" duration="2772000" />
-      <workItem from="1669738236138" duration="5401000" />
+      <workItem from="1669738236138" duration="5731000" />
+      <workItem from="1670166481494" duration="671000" />
     </task>
     <task id="LOCAL-00001" summary="Binary Tree implemented. But remove function is not implemented!">
       <created>1669706622348</created>
@@ -101,7 +124,14 @@
       <option name="project" value="LOCAL" />
       <updated>1669706627775</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="Delete function is implemented.">
+      <created>1669744285537</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1669744285537</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -121,6 +151,7 @@
   <component name="VcsManagerConfiguration">
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
     <MESSAGE value="Binary Tree implemented. But remove function is not implemented!" />
-    <option name="LAST_COMMIT_MESSAGE" value="Binary Tree implemented. But remove function is not implemented!" />
+    <MESSAGE value="Delete function is implemented." />
+    <option name="LAST_COMMIT_MESSAGE" value="Delete function is implemented." />
   </component>
 </project>
