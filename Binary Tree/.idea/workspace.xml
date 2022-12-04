@@ -18,8 +18,12 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="399090f6-cfc1-45cd-a190-e12b68cc68d1" name="Changes" comment="Delete function is implemented.">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../StackOfTrees/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../StackOfTrees/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../StackOfTrees/cmake-build-debug/.ninja_deps" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../StackOfTrees/cmake-build-debug/.ninja_log" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../StackOfTrees/cmake-build-debug/CMakeFiles/StackOfTrees.dir/main.c.obj" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../StackOfTrees/cmake-build-debug/StackOfTrees.exe" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../StackOfTrees/input.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../StackOfTrees/cmake-build-debug/Testing/Temporary/LastTest.log" beforeDir="false" afterPath="$PROJECT_DIR$/../StackOfTrees/cmake-build-debug/Testing/Temporary/LastTest.log" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../StackOfTrees/main.c" beforeDir="false" afterPath="$PROJECT_DIR$/../StackOfTrees/main.c" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />

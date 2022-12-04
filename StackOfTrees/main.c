@@ -38,7 +38,7 @@ int main(void){
 
     StackNodePtr head = NULL;
 
-    FILE *fptr = fopen("", "r");
+    FILE *fptr = fopen("C:\\Users\\james\\Documents\\GitHub\\Data_Structures_Git\\StackOfTrees\\input.txt", "r");
     if(fptr == NULL){
         printf("File could not opened! Check the path!\n");
         exit(42);
@@ -46,7 +46,7 @@ int main(void){
 
 
     int currentItem;
-    while((currentItem = fgetc(fptr)) != NULL){
+    while((currentItem = fgetc(fptr)) != EOF){
 
         if(currentItem == ' ' || currentItem == '\n')//Ignore blanks and new line chars
             continue;
@@ -57,7 +57,7 @@ int main(void){
             TreeNodePtr left = pop(&head);
             TreeNodePtr right = pop(&head);
 
-            push(&head, createTree(newTree, right, left));
+            push(&head, createTree(currentItem, right, left));
 
         }
         else{ //If the token is an operand
@@ -90,7 +90,7 @@ int push(StackNodePtr *head, TreeNodePtr tree){
 }
 
 TreeNodePtr pop(StackNodePtr *head){
-    StackNodePtr temp = *head;
+    TreeNodePtr temp = (*head)->tree;
     *head = (*head)->nextPtr;
     return temp;
 }
