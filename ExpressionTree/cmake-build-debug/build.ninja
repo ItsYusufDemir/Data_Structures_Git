@@ -39,7 +39,7 @@ include CMakeFiles/rules.ninja
 #############################################
 # Logical path to working directory; prefix for absolute paths.
 
-cmake_ninja_workdir = C$:/Users/james/Documents/GitHub/Data_Structures_Git/StackOfTrees/cmake-build-debug/
+cmake_ninja_workdir = C$:/Users/james/Documents/GitHub/Data_Structures_Git/ExpressionTree/cmake-build-debug/
 # =============================================================================
 # Object build statements for EXECUTABLE target StackOfTrees
 
@@ -49,7 +49,7 @@ cmake_ninja_workdir = C$:/Users/james/Documents/GitHub/Data_Structures_Git/Stack
 
 build cmake_object_order_depends_target_StackOfTrees: phony || CMakeFiles/StackOfTrees.dir
 
-build CMakeFiles/StackOfTrees.dir/main.c.obj: C_COMPILER__StackOfTrees_Debug C$:/Users/james/Documents/GitHub/Data_Structures_Git/StackOfTrees/main.c || cmake_object_order_depends_target_StackOfTrees
+build CMakeFiles/StackOfTrees.dir/main.c.obj: C_COMPILER__StackOfTrees_Debug C$:/Users/james/Documents/GitHub/Data_Structures_Git/ExpressionTree/main.c || cmake_object_order_depends_target_StackOfTrees
   DEP_FILE = CMakeFiles\StackOfTrees.dir\main.c.obj.d
   FLAGS = -g
   OBJECT_DIR = CMakeFiles\StackOfTrees.dir
@@ -81,7 +81,7 @@ build StackOfTrees.exe: C_EXECUTABLE_LINKER__StackOfTrees_Debug CMakeFiles/Stack
 # Utility command for edit_cache
 
 build CMakeFiles/edit_cache.util: CUSTOM_COMMAND
-  COMMAND = cmd.exe /C "cd /D C:\Users\james\Documents\GitHub\Data_Structures_Git\StackOfTrees\cmake-build-debug && "C:\Program Files\JetBrains\CLion 2022.2.1\bin\cmake\win\bin\cmake.exe" -E echo "No interactive CMake dialog available.""
+  COMMAND = cmd.exe /C "cd /D C:\Users\james\Documents\GitHub\Data_Structures_Git\ExpressionTree\cmake-build-debug && "C:\Program Files\JetBrains\CLion 2022.2.1\bin\cmake\win\bin\cmake.exe" -E echo "No interactive CMake dialog available.""
   DESC = No interactive CMake dialog available...
   restat = 1
 
@@ -92,7 +92,7 @@ build edit_cache: phony CMakeFiles/edit_cache.util
 # Utility command for rebuild_cache
 
 build CMakeFiles/rebuild_cache.util: CUSTOM_COMMAND
-  COMMAND = cmd.exe /C "cd /D C:\Users\james\Documents\GitHub\Data_Structures_Git\StackOfTrees\cmake-build-debug && "C:\Program Files\JetBrains\CLion 2022.2.1\bin\cmake\win\bin\cmake.exe" --regenerate-during-build -SC:\Users\james\Documents\GitHub\Data_Structures_Git\StackOfTrees -BC:\Users\james\Documents\GitHub\Data_Structures_Git\StackOfTrees\cmake-build-debug"
+  COMMAND = cmd.exe /C "cd /D C:\Users\james\Documents\GitHub\Data_Structures_Git\ExpressionTree\cmake-build-debug && "C:\Program Files\JetBrains\CLion 2022.2.1\bin\cmake\win\bin\cmake.exe" --regenerate-during-build -SC:\Users\james\Documents\GitHub\Data_Structures_Git\ExpressionTree -BC:\Users\james\Documents\GitHub\Data_Structures_Git\ExpressionTree\cmake-build-debug"
   DESC = Running CMake to regenerate build system...
   pool = console
   restat = 1
@@ -110,7 +110,7 @@ build StackOfTrees: phony StackOfTrees.exe
 # =============================================================================
 
 #############################################
-# Folder: C:/Users/james/Documents/GitHub/Data_Structures_Git/StackOfTrees/cmake-build-debug
+# Folder: C:/Users/james/Documents/GitHub/Data_Structures_Git/ExpressionTree/cmake-build-debug
 
 build all: phony StackOfTrees.exe
 

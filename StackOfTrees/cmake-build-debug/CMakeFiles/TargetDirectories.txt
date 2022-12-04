@@ -1,3 +1,0 @@
-C:/Users/james/Documents/GitHub/Data_Structures_Git/StackOfTrees/cmake-build-debug/CMakeFiles/StackOfTrees.dir
-C:/Users/james/Documents/GitHub/Data_Structures_Git/StackOfTrees/cmake-build-debug/CMakeFiles/edit_cache.dir
-C:/Users/james/Documents/GitHub/Data_Structures_Git/StackOfTrees/cmake-build-debug/CMakeFiles/rebuild_cache.dir

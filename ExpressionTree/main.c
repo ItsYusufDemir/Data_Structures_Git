@@ -38,7 +38,7 @@ int main(void){
 
     StackNodePtr head = NULL;
 
-    FILE *fptr = fopen("C:\\Users\\james\\Documents\\GitHub\\Data_Structures_Git\\StackOfTrees\\input.txt", "r");
+    FILE *fptr = fopen("C:\\Users\\james\\Documents\\GitHub\\Data_Structures_Git\\ExpressionTree\\input.txt", "r");
     if(fptr == NULL){
         printf("File could not opened! Check the path!\n");
         exit(42);

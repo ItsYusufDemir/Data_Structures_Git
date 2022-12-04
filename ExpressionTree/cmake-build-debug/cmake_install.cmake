@@ -1,4 +1,4 @@
-# Install script for directory: C:/Users/james/Documents/GitHub/Data_Structures_Git/StackOfTrees
+# Install script for directory: C:/Users/james/Documents/GitHub/Data_Structures_Git/ExpressionTree
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)
@@ -45,5 +45,5 @@ endif()
 
 string(REPLACE ";" "\n" CMAKE_INSTALL_MANIFEST_CONTENT
        "${CMAKE_INSTALL_MANIFEST_FILES}")
-file(WRITE "C:/Users/james/Documents/GitHub/Data_Structures_Git/StackOfTrees/cmake-build-debug/${CMAKE_INSTALL_MANIFEST}"
+file(WRITE "C:/Users/james/Documents/GitHub/Data_Structures_Git/ExpressionTree/cmake-build-debug/${CMAKE_INSTALL_MANIFEST}"
      "${CMAKE_INSTALL_MANIFEST_CONTENT}")
