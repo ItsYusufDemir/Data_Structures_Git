@@ -7,7 +7,9 @@
     <option name="reloaded" value="true" />
   </component>
   <component name="CMakeRunConfigurationManager">
-    <generated />
+    <generated>
+      <config projectName="StackOfTrees" targetName="StackOfTrees" />
+    </generated>
   </component>
   <component name="CMakeSettings">
     <configurations>
@@ -15,47 +17,11 @@
     </configurations>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="1dfd3729-202e-41bd-a151-3fb07ad10b48" name="Changes" comment="I think it is working">
-      <change afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/clion-log.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../StackOfTrees/.idea/StackOfTrees.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/StackOfTrees.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../StackOfTrees/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../StackOfTrees/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../StackOfTrees/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../StackOfTrees/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../StackOfTrees/CMakeLists.txt" beforeDir="false" afterPath="$PROJECT_DIR$/CMakeLists.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../StackOfTrees/cmake-build-debug/.cmake/api/v1/query/cache-v2" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/.cmake/api/v1/query/cache-v2" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../StackOfTrees/cmake-build-debug/.cmake/api/v1/query/cmakeFiles-v1" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/.cmake/api/v1/query/cmakeFiles-v1" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../StackOfTrees/cmake-build-debug/.cmake/api/v1/query/codemodel-v2" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/.cmake/api/v1/query/codemodel-v2" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../StackOfTrees/cmake-build-debug/.cmake/api/v1/query/toolchains-v1" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/.cmake/api/v1/query/toolchains-v1" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../StackOfTrees/cmake-build-debug/.cmake/api/v1/reply/cache-v2-bd34c2c5d3e12344c912.json" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/.cmake/api/v1/reply/cache-v2-bd34c2c5d3e12344c912.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../StackOfTrees/cmake-build-debug/.cmake/api/v1/reply/cmakeFiles-v1-6a387bce624dac28950e.json" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/.cmake/api/v1/reply/cmakeFiles-v1-6a387bce624dac28950e.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../StackOfTrees/cmake-build-debug/.cmake/api/v1/reply/codemodel-v2-5f6cff6bdfe7edf9887d.json" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/.cmake/api/v1/reply/codemodel-v2-5f6cff6bdfe7edf9887d.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../StackOfTrees/cmake-build-debug/.cmake/api/v1/reply/directory-.-Debug-d0094a50bb2071803777.json" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/.cmake/api/v1/reply/directory-.-Debug-d0094a50bb2071803777.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../StackOfTrees/cmake-build-debug/.cmake/api/v1/reply/index-2022-12-04T15-09-52-0660.json" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/.cmake/api/v1/reply/index-2022-12-04T15-09-52-0660.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../StackOfTrees/cmake-build-debug/.cmake/api/v1/reply/target-StackOfTrees-Debug-bb27ea58c667ca524e08.json" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/.cmake/api/v1/reply/target-StackOfTrees-Debug-bb27ea58c667ca524e08.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../StackOfTrees/cmake-build-debug/.cmake/api/v1/reply/toolchains-v1-3e6b1741ae38f0623953.json" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/.cmake/api/v1/reply/toolchains-v1-3e6b1741ae38f0623953.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../StackOfTrees/cmake-build-debug/.ninja_deps" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/.ninja_deps" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../StackOfTrees/cmake-build-debug/.ninja_log" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/.ninja_log" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../StackOfTrees/cmake-build-debug/CMakeCache.txt" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeCache.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../StackOfTrees/cmake-build-debug/CMakeFiles/3.23.2/CMakeCCompiler.cmake" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/3.23.2/CMakeCCompiler.cmake" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../StackOfTrees/cmake-build-debug/CMakeFiles/3.23.2/CMakeDetermineCompilerABI_C.bin" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/3.23.2/CMakeDetermineCompilerABI_C.bin" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../StackOfTrees/cmake-build-debug/CMakeFiles/3.23.2/CMakeRCCompiler.cmake" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/3.23.2/CMakeRCCompiler.cmake" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../StackOfTrees/cmake-build-debug/CMakeFiles/3.23.2/CMakeSystem.cmake" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/3.23.2/CMakeSystem.cmake" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../StackOfTrees/cmake-build-debug/CMakeFiles/3.23.2/CompilerIdC/CMakeCCompilerId.c" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/3.23.2/CompilerIdC/CMakeCCompilerId.c" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../StackOfTrees/cmake-build-debug/CMakeFiles/3.23.2/CompilerIdC/a.exe" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/3.23.2/CompilerIdC/a.exe" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../StackOfTrees/cmake-build-debug/CMakeFiles/CMakeOutput.log" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/CMakeOutput.log" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../StackOfTrees/cmake-build-debug/CMakeFiles/StackOfTrees.dir/main.c.obj" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/StackOfTrees.dir/main.c.obj" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../StackOfTrees/cmake-build-debug/CMakeFiles/TargetDirectories.txt" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/TargetDirectories.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../StackOfTrees/cmake-build-debug/CMakeFiles/clion-environment.txt" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/clion-environment.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../StackOfTrees/cmake-build-debug/CMakeFiles/clion-log.txt" beforeDir="false" afterPath="$PROJECT_DIR$/../StackOfTrees/cmake-build-debug/CMakeFiles/clion-log.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../StackOfTrees/cmake-build-debug/CMakeFiles/cmake.check_cache" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/cmake.check_cache" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../StackOfTrees/cmake-build-debug/CMakeFiles/rules.ninja" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/rules.ninja" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../StackOfTrees/cmake-build-debug/StackOfTrees.exe" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/StackOfTrees.exe" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../StackOfTrees/cmake-build-debug/Testing/Temporary/LastTest.log" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/Testing/Temporary/LastTest.log" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../StackOfTrees/cmake-build-debug/build.ninja" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/build.ninja" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../StackOfTrees/cmake-build-debug/cmake_install.cmake" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/cmake_install.cmake" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../StackOfTrees/input.txt" beforeDir="false" afterPath="$PROJECT_DIR$/input.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../StackOfTrees/main.c" beforeDir="false" afterPath="$PROJECT_DIR$/main.c" afterDir="false" />
+    <list default="true" id="1dfd3729-202e-41bd-a151-3fb07ad10b48" name="Changes" comment=".">
+      <change beforePath="$PROJECT_DIR$/../Binary Tree/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../Binary Tree/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Binary Tree/cmake-build-debug/Testing/Temporary/LastTest.log" beforeDir="false" afterPath="$PROJECT_DIR$/../Binary Tree/cmake-build-debug/Testing/Temporary/LastTest.log" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/main.c" beforeDir="false" afterPath="$PROJECT_DIR$/main.c" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -116,6 +82,7 @@
       <option name="presentableId" value="Default" />
       <updated>1670166587961</updated>
       <workItem from="1670166589815" duration="5869000" />
+      <workItem from="1670173998075" duration="743000" />
     </task>
     <task id="LOCAL-00001" summary="Starting">
       <created>1670167312261</created>
@@ -138,7 +105,21 @@
       <option name="project" value="LOCAL" />
       <updated>1670173808144</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="I think it is working">
+      <created>1670174020318</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1670174020318</updated>
+    </task>
+    <task id="LOCAL-00005" summary=".">
+      <created>1670174189074</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1670174189074</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -160,14 +141,15 @@
     <MESSAGE value="Starting" />
     <MESSAGE value="Before debugging" />
     <MESSAGE value="I think it is working" />
-    <option name="LAST_COMMIT_MESSAGE" value="I think it is working" />
+    <MESSAGE value="." />
+    <option name="LAST_COMMIT_MESSAGE" value="." />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
       <breakpoints>
         <line-breakpoint enabled="true" type="com.jetbrains.cidr.execution.debugger.OCBreakpointType">
           <url>file://$PROJECT_DIR$/main.c</url>
-          <line>49</line>
+          <line>52</line>
           <option name="timeStamp" value="1" />
         </line-breakpoint>
       </breakpoints>

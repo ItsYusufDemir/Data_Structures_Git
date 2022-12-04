@@ -34,6 +34,9 @@ TreeNodePtr pop(StackNodePtr *head);
 TreeNodePtr createTree(char value, TreeNodePtr right, TreeNodePtr left);
 int isOperand(char value);
 
+int level = 0;
+
+
 int main(void){
 
     StackNodePtr head = NULL;
@@ -115,3 +118,12 @@ int isOperand(char value){
     else
         return 0;
 }
+
+/*PRINTING IN 2D
+void printTree(TreeNodePtr tree){
+    if(tree != NULL){
+        printTree(tree->rightPtr);
+
+    }
+}
+ */
