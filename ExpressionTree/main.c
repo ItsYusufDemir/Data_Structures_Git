@@ -5,7 +5,7 @@
 /* Author: Yusuf Demir  |   GitHub-->@ItsYusufDemir
  * Starting date: 229.11.2022
  *
- * Project Description: Building a binary tree from a arithmetic expression.
+ * Project Description: Building an expression tree from a arithmetic expression.
  */
 
 //STRUCTURES
