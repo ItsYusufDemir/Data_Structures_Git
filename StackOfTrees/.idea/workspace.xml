@@ -17,14 +17,10 @@
     </configurations>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="1dfd3729-202e-41bd-a151-3fb07ad10b48" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/StackOfTrees.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+    <list default="true" id="1dfd3729-202e-41bd-a151-3fb07ad10b48" name="Changes" comment="Starting">
       <change beforePath="$PROJECT_DIR$/../Binary Tree/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../Binary Tree/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Binary Tree/cmake-build-debug/Testing/Temporary/LastTest.log" beforeDir="false" afterPath="$PROJECT_DIR$/../Binary Tree/cmake-build-debug/Testing/Temporary/LastTest.log" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/main.c" beforeDir="false" afterPath="$PROJECT_DIR$/main.c" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -79,8 +75,16 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1670166587961</updated>
-      <workItem from="1670166589815" duration="563000" />
+      <workItem from="1670166589815" duration="4915000" />
     </task>
+    <task id="LOCAL-00001" summary="Starting">
+      <created>1670167312261</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1670167312261</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -99,5 +103,7 @@
   </component>
   <component name="VcsManagerConfiguration">
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
+    <MESSAGE value="Starting" />
+    <option name="LAST_COMMIT_MESSAGE" value="Starting" />
   </component>
 </project>
