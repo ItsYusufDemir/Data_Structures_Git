@@ -33,8 +33,11 @@ int push(StackNodePtr *head, TreeNodePtr tree);
 TreeNodePtr pop(StackNodePtr *head);
 TreeNodePtr createTree(char value, TreeNodePtr right, TreeNodePtr left);
 int isOperand(char value);
+void printTree(TreeNodePtr tree);
 
-int level = 0;
+
+//GLOBAL VARIABLES
+int level = -1; //This is for 2D printing
 
 
 int main(void){
@@ -69,8 +72,7 @@ int main(void){
     }
 
 
-
-
+    printTree(head->tree);
 
 
 
@@ -119,11 +121,22 @@ int isOperand(char value){
         return 0;
 }
 
-/*PRINTING IN 2D
-void printTree(TreeNodePtr tree){
-    if(tree != NULL){
+
+//Printing a tree in 2 dimensional
+void printTree(TreeNodePtr tree) {//Recursive function --> RNL
+    level++; //As we go deep, we increment the level
+
+    if (tree != NULL) {
         printTree(tree->rightPtr);
 
+        for(int i = 0; i < level; i++){ //Puts appropriate tabs
+            printf("\t");
+        }
+        printf("%c\n", tree->data);
+
+
+        printTree(tree->leftPtr);
     }
+
+    level--;
 }
- */

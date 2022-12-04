@@ -26,7 +26,10 @@ int findMin(TreeNodePtr root);
 int findMax(TreeNodePtr root);
 int find(TreeNodePtr root, int value);
 void delete(TreeNodePtr *root, int value);
+void printTree2D(TreeNodePtr tree);
 
+
+int level = -1;
 
 int main() {
 
@@ -76,6 +79,7 @@ int main() {
     printf("\n\n");
 
 
+    printTree2D(rootPtr);
 
     return 0;
 }
@@ -214,4 +218,24 @@ void delete(TreeNodePtr *root, int value){
 
 }
 
+
+//Printing a tree in 2 dimensional
+void printTree2D(TreeNodePtr tree) {//Recursive function --> RNL
+    level++; //As we go deep, we increment the level
+
+    if (tree != NULL) {
+        printTree2D(tree->rightPtr);
+
+        for(int i = 0; i < level; i++){ //Puts appropriate tabs
+            printf("\t");
+        }
+        printf("%c\n", tree->data);
+
+
+        printTree2D(tree->leftPtr);
+    }
+
+    level--;
+}
+//NOT WORKING !!!!
 
