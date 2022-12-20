@@ -48,16 +48,16 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;ASKED_ADD_EXTERNAL_FILES&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.cidr.known.project.marker&quot;: &quot;true&quot;,
-    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
-    &quot;cf.first.check.clang-format&quot;: &quot;false&quot;,
-    &quot;cidr.known.project.marker&quot;: &quot;true&quot;,
-    &quot;last_opened_file_path&quot;: &quot;C:/Users/james/Documents/GitHub/Data_Structures_Git/ExpressionTree&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "ASKED_ADD_EXTERNAL_FILES": "true",
+    "RunOnceActivity.cidr.known.project.marker": "true",
+    "WebServerToolWindowFactoryState": "false",
+    "cf.first.check.clang-format": "false",
+    "cidr.known.project.marker": "true",
+    "last_opened_file_path": "C:/Users/james/Documents/GitHub/Data_Structures_Git/Binary Tree"
   }
-}</component>
+}]]></component>
   <component name="RunManager">
     <configuration name="StackOfTrees" type="CMakeRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" ELEVATE="false" USE_EXTERNAL_CONSOLE="false" PASS_PARENT_ENVS_2="true" PROJECT_NAME="StackOfTrees" TARGET_NAME="StackOfTrees" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="StackOfTrees" RUN_TARGET_NAME="StackOfTrees">
       <method v="2">
@@ -75,7 +75,7 @@
       <updated>1670166587961</updated>
       <workItem from="1670166589815" duration="5869000" />
       <workItem from="1670173998075" duration="895000" />
-      <workItem from="1670175614905" duration="2000" />
+      <workItem from="1670175614905" duration="1306000" />
     </task>
     <task id="LOCAL-00001" summary="Starting">
       <created>1670167312261</created>
@@ -150,10 +150,22 @@
       <breakpoints>
         <line-breakpoint enabled="true" type="com.jetbrains.cidr.execution.debugger.OCBreakpointType">
           <url>file://$PROJECT_DIR$/main.c</url>
-          <line>52</line>
-          <option name="timeStamp" value="1" />
+          <line>126</line>
+          <option name="timeStamp" value="3" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="com.jetbrains.cidr.execution.debugger.OCBreakpointType">
+          <url>file://$PROJECT_DIR$/main.c</url>
+          <line>74</line>
+          <option name="timeStamp" value="4" />
         </line-breakpoint>
       </breakpoints>
+      <default-breakpoints>
+        <breakpoint type="python-exception">
+          <properties notifyOnTerminate="true" exception="BaseException">
+            <option name="notifyOnTerminate" value="true" />
+          </properties>
+        </breakpoint>
+      </default-breakpoints>
     </breakpoint-manager>
   </component>
 </project>
