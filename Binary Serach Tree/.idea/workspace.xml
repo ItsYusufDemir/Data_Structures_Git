@@ -17,7 +17,15 @@
     </configurations>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="399090f6-cfc1-45cd-a190-e12b68cc68d1" name="Changes" comment="BST, 2D printing is working" />
+    <list default="true" id="399090f6-cfc1-45cd-a190-e12b68cc68d1" name="Changes" comment=".">
+      <change beforePath="$PROJECT_DIR$/../AVL Tree/cmake-build-debug/.ninja_deps" beforeDir="false" afterPath="$PROJECT_DIR$/../AVL Tree/cmake-build-debug/.ninja_deps" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../AVL Tree/cmake-build-debug/.ninja_log" beforeDir="false" afterPath="$PROJECT_DIR$/../AVL Tree/cmake-build-debug/.ninja_log" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../AVL Tree/cmake-build-debug/AVL_Tree.exe" beforeDir="false" afterPath="$PROJECT_DIR$/../AVL Tree/cmake-build-debug/AVL_Tree.exe" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../AVL Tree/cmake-build-debug/CMakeFiles/AVL_Tree.dir/main.c.obj" beforeDir="false" afterPath="$PROJECT_DIR$/../AVL Tree/cmake-build-debug/CMakeFiles/AVL_Tree.dir/main.c.obj" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../AVL Tree/cmake-build-debug/Testing/Temporary/LastTest.log" beforeDir="false" afterPath="$PROJECT_DIR$/../AVL Tree/cmake-build-debug/Testing/Temporary/LastTest.log" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../AVL Tree/main.c" beforeDir="false" afterPath="$PROJECT_DIR$/../AVL Tree/main.c" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -62,6 +70,11 @@
         <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
       </method>
     </configuration>
+    <configuration default="true" type="CMakeRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" ELEVATE="false" USE_EXTERNAL_CONSOLE="false" PASS_PARENT_ENVS_2="true">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
@@ -80,7 +93,7 @@
       <workItem from="1671052602626" duration="16000" />
       <workItem from="1671375734433" duration="826000" />
       <workItem from="1671551526587" duration="6195000" />
-      <workItem from="1671729354560" duration="2000" />
+      <workItem from="1671729354560" duration="1248000" />
     </task>
     <task id="LOCAL-00001" summary="Binary Tree implemented. But remove function is not implemented!">
       <created>1669706622348</created>
@@ -124,7 +137,14 @@
       <option name="project" value="LOCAL" />
       <updated>1671555498595</updated>
     </task>
-    <option name="localTasksCounter" value="7" />
+    <task id="LOCAL-00007" summary=".">
+      <created>1671729366685</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1671729366685</updated>
+    </task>
+    <option name="localTasksCounter" value="8" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -145,9 +165,9 @@
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
     <MESSAGE value="Binary Tree implemented. But remove function is not implemented!" />
     <MESSAGE value="Delete function is implemented." />
-    <MESSAGE value="." />
     <MESSAGE value="BST, 2D printing is working" />
-    <option name="LAST_COMMIT_MESSAGE" value="BST, 2D printing is working" />
+    <MESSAGE value="." />
+    <option name="LAST_COMMIT_MESSAGE" value="." />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
