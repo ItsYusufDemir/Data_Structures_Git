@@ -17,18 +17,7 @@
     </configurations>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="399090f6-cfc1-45cd-a190-e12b68cc68d1" name="Changes" comment="BST, 2D printing is working">
-      <change afterPath="$PROJECT_DIR$/../AVL Tree/cmake-build-debug/.ninja_deps" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../AVL Tree/cmake-build-debug/.ninja_log" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../AVL Tree/cmake-build-debug/AVL_Tree.exe" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../AVL Tree/cmake-build-debug/CMakeFiles/AVL_Tree.dir/main.c.obj" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../AVL Tree/cmake-build-debug/Testing/Temporary/LastTest.log" beforeDir="false" afterPath="$PROJECT_DIR$/../AVL Tree/cmake-build-debug/Testing/Temporary/LastTest.log" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../AVL Tree/main.c" beforeDir="false" afterPath="$PROJECT_DIR$/../AVL Tree/main.c" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Binary Tree/.idea/modules.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Binary Tree/.idea/workspace.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Binary Tree/cmake-build-debug/CMakeFiles/clion-log.txt" beforeDir="false" />
-    </list>
+    <list default="true" id="399090f6-cfc1-45cd-a190-e12b68cc68d1" name="Changes" comment="BST, 2D printing is working" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -57,22 +46,17 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "ASKED_ADD_EXTERNAL_FILES": "true",
-    "RunOnceActivity.cidr.known.project.marker": "true",
-    "WebServerToolWindowFactoryState": "false",
-    "cf.first.check.clang-format": "false",
-    "cidr.known.project.marker": "true",
-    "last_opened_file_path": "C:/Users/james/Documents/GitHub/Data_Structures_Git/AVL Tree"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;ASKED_ADD_EXTERNAL_FILES&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.cidr.known.project.marker&quot;: &quot;true&quot;,
+    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
+    &quot;cf.first.check.clang-format&quot;: &quot;false&quot;,
+    &quot;cidr.known.project.marker&quot;: &quot;true&quot;,
+    &quot;last_opened_file_path&quot;: &quot;C:/Users/james/Documents/GitHub/Data_Structures_Git/AVL Tree&quot;
   }
-}]]></component>
+}</component>
   <component name="RunManager">
-    <configuration default="true" type="CLionExternalRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" ELEVATE="false" USE_EXTERNAL_CONSOLE="false" PASS_PARENT_ENVS_2="true">
-      <method v="2">
-        <option name="CLION.EXTERNAL.BUILD" enabled="true" />
-      </method>
-    </configuration>
     <configuration name="Binary_Tree" type="CMakeRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" ELEVATE="false" USE_EXTERNAL_CONSOLE="false" PASS_PARENT_ENVS_2="true" PROJECT_NAME="Binary_Tree" TARGET_NAME="Binary_Tree" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="Binary_Tree" RUN_TARGET_NAME="Binary_Tree">
       <method v="2">
         <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
@@ -96,6 +80,7 @@
       <workItem from="1671052602626" duration="16000" />
       <workItem from="1671375734433" duration="826000" />
       <workItem from="1671551526587" duration="6195000" />
+      <workItem from="1671729354560" duration="2000" />
     </task>
     <task id="LOCAL-00001" summary="Binary Tree implemented. But remove function is not implemented!">
       <created>1669706622348</created>
