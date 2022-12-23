@@ -78,7 +78,7 @@ int main() {
     insertNode(&splayTree, 11);
     */
 
-
+    /*
     insertNode(&splayTree, 50);
     insertNode(&splayTree, 30);
     insertNode(&splayTree, 60);
@@ -89,7 +89,32 @@ int main() {
     insertNode(&splayTree, 100);
     insertNode(&splayTree, 20);
     insertNode(&splayTree, 15);
+    */
 
+
+    insertNode(&splayTree, 24);
+    splay(&splayTree, 24);
+    insertNode(&splayTree, 12);
+    splay(&splayTree, 12);
+    insertNode(&splayTree, 90);
+    splay(&splayTree, 90);
+    insertNode(&splayTree, 16);
+    splay(&splayTree, 16);
+    insertNode(&splayTree, 32);
+    splay(&splayTree, 32);
+    insertNode(&splayTree, 11);
+    splay(&splayTree, 11);
+    insertNode(&splayTree, 82);
+    splay(&splayTree, 82);
+    insertNode(&splayTree, 1);
+    splay(&splayTree, 1);
+    insertNode(&splayTree, 26);
+    splay(&splayTree, 26);
+    insertNode(&splayTree, 7);
+    splay(&splayTree, 7);
+
+    delete(&splayTree, 82);
+    splay(&splayTree, 26);
 
 
 
@@ -98,9 +123,9 @@ int main() {
     printTree2D(splayTree);
     printf("\n\n");
 
-    splay(&splayTree, 70);  //We will call the splay function after each insertion, but for now we will call it at the end with 11
+    //splay(&splayTree, 24);  //We will call the splay function after each insertion, but for now we will call it at the end with 11
 
-    printTree2D(splayTree);
+    //printTree2D(splayTree);
 
 
 
@@ -142,6 +167,8 @@ void insertNode(TreeNodePtr *root, int value){
             insertNode(&((*root)->left), value);
 
     }
+
+
 
 }
 
@@ -300,7 +327,7 @@ void splay(TreeNodePtr *root, int inserted) {
 
             if ((*G)->left != NULL && (*G)->left->data == (*P)->data) {
 
-                if ((*P)->left->data == (*X)->data) //Zig-zig left
+                if ((*P)->left != NULL && (*P)->left->data == (*X)->data) //Zig-zig left
                     zigzigL(X, P, G);
 
                 else //RL Rotation

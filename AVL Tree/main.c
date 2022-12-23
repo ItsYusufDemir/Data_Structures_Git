@@ -46,9 +46,6 @@ void printTree2D(TreeNodePtr tree);
 
 
 
-
-
-
 int main() {
 
     clock_t start, end;
@@ -57,63 +54,25 @@ int main() {
 
 
 
-    TreeNodePtr rootPtr = NULL;
+    TreeNodePtr root = NULL;
 
-    /*
-    insertNode(&rootPtr, 21);
-    insertNode(&rootPtr, 26);
-    insertNode(&rootPtr, 30);
-    insertNode(&rootPtr, 9);
-    insertNode(&rootPtr, 4);
-    insertNode(&rootPtr, 14);
-    insertNode(&rootPtr, 28);
-    insertNode(&rootPtr, 18);
-    insertNode(&rootPtr, 15);
-    insertNode(&rootPtr, 10);
-    insertNode(&rootPtr, 2);
-    insertNode(&rootPtr, 3);
-    insertNode(&rootPtr, 7);
-    */
+    //int items[] = {21,26,30,9,4,14,28,18,15,10,2,3,7};
 
-    /*
-    insertNode(&rootPtr, 14);
-    insertNode(&rootPtr, 17);
-    insertNode(&rootPtr, 11);
-    insertNode(&rootPtr, 7);
-    insertNode(&rootPtr, 53);
-    insertNode(&rootPtr, 4);
-    insertNode(&rootPtr, 13);
-    insertNode(&rootPtr, 12);
-    insertNode(&rootPtr, 8);
-    insertNode(&rootPtr, 60);
-    insertNode(&rootPtr, 19);
-    insertNode(&rootPtr, 16);
-    insertNode(&rootPtr, 20);
-*/
+    int items[] = {14, 17, 11, 7, 53, 4, 13, 12,8,60,19,16,20};
 
-    insertNode(&rootPtr, 9);
-    insertNode(&rootPtr, 15);
-    insertNode(&rootPtr, 20);
-    insertNode(&rootPtr, 8);
-    insertNode(&rootPtr, 7);
-    insertNode(&rootPtr, 13);
-    insertNode(&rootPtr, 10);
+    //int items[] = {9,15,20,8,7,13,10};
 
 
 
 
-    printTree2D(rootPtr);
+    for(int i = 0; i < sizeof(items)/ sizeof(items[0]); i++)
+        insertNode(&root, items[i]);
+
+
+
+
+    printTree2D(root);
     printf("\n\n");
-
-
-
-
-
-
-
-
-
-
 
 
 
@@ -153,6 +112,7 @@ void insertNode(TreeNodePtr *root, int value){
 
     updateHeights(root); //After we insert a node, we update all the heights of the nodes in the tree
     checkBalance(root);
+
 }
 
 int findMax(TreeNodePtr root){
@@ -213,6 +173,9 @@ void delete(TreeNodePtr *root, int value){
     else{
         delete(&((*root)->left), value);
     }
+
+    updateHeights(root); //After we delete a node, we update all the heights of the nodes in the tree
+    checkBalance(root);
 
 }
 
@@ -397,7 +360,5 @@ void printTree2D(TreeNodePtr tree) {//Recursive function --> RNL
 
     height--;
 }
-
-
 
 
