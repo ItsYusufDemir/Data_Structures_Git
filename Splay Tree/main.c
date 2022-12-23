@@ -29,7 +29,6 @@ int findMax(TreeNodePtr root);
 int findMin(TreeNodePtr root);
 void inOrder(TreeNodePtr root);
 void delete(TreeNodePtr *root, int value);
-int max(int x, int y);
 void rotateRR(TreeNodePtr *root);
 void rotateLL(TreeNodePtr *root);
 void copyTree(TreeNodePtr main, TreeNodePtr *duplicate);
@@ -52,84 +51,27 @@ int main() {
     start = clock();
 
 
-    TreeNodePtr splayTree = NULL;
-
-    /*
-    insertNode(&splayTree, 6);
-    insertNode(&splayTree, 5);
-    insertNode(&splayTree, 3);
-    insertNode(&splayTree, 2);
-    insertNode(&splayTree, 10);
-    insertNode(&splayTree, 30);
-    insertNode(&splayTree, 48);
-    insertNode(&splayTree, 12);
-    insertNode(&splayTree, 11);
-*/
-
-    /*
-    insertNode(&splayTree, 10);
-    insertNode(&splayTree, 30);
-    insertNode(&splayTree, 5);
-    insertNode(&splayTree, 6);
-    insertNode(&splayTree, 3);
-    insertNode(&splayTree, 2);
-    insertNode(&splayTree, 12);
-    insertNode(&splayTree, 48);
-    insertNode(&splayTree, 11);
-    */
-
-    /*
-    insertNode(&splayTree, 50);
-    insertNode(&splayTree, 30);
-    insertNode(&splayTree, 60);
-    insertNode(&splayTree, 10);
-    insertNode(&splayTree, 40);
-    insertNode(&splayTree, 90);
-    insertNode(&splayTree, 70);
-    insertNode(&splayTree, 100);
-    insertNode(&splayTree, 20);
-    insertNode(&splayTree, 15);
-    */
+    TreeNodePtr root = NULL;
 
 
-    insertNode(&splayTree, 24);
-    splay(&splayTree, 24);
-    insertNode(&splayTree, 12);
-    splay(&splayTree, 12);
-    insertNode(&splayTree, 90);
-    splay(&splayTree, 90);
-    insertNode(&splayTree, 16);
-    splay(&splayTree, 16);
-    insertNode(&splayTree, 32);
-    splay(&splayTree, 32);
-    insertNode(&splayTree, 11);
-    splay(&splayTree, 11);
-    insertNode(&splayTree, 82);
-    splay(&splayTree, 82);
-    insertNode(&splayTree, 1);
-    splay(&splayTree, 1);
-    insertNode(&splayTree, 26);
-    splay(&splayTree, 26);
-    insertNode(&splayTree, 7);
-    splay(&splayTree, 7);
+    //int items[] = {6,5,3,2,10,30,48,12,11};
 
-    delete(&splayTree, 82);
-    splay(&splayTree, 26);
+    //int items[] = {10,30,5,6,3,2,12,48,11};
+
+    int items[] = {50,30,60,10,40,90,70,100,20,15};
+
+    for(int i = 0; i < sizeof(items)/sizeof(items[0]); i++){
+        insertNode(&root, items[i]);
+        splay(&root, items[i]);
+    }
 
 
+    delete(&root, 70);
+    delete(&root, 40);
 
 
-
-    printTree2D(splayTree);
+    printTree2D(root);
     printf("\n\n");
-
-    //splay(&splayTree, 24);  //We will call the splay function after each insertion, but for now we will call it at the end with 11
-
-    //printTree2D(splayTree);
-
-
-
-
 
 
 
@@ -201,35 +143,26 @@ int findMin(TreeNodePtr root){
 
 void delete(TreeNodePtr *root, int value){
 
-    if(*root == NULL) //If the tree is empty, there is nothing to delete
-        return;
+    splay(root, value); //Bring the deleting value to the root
+
+    //Separate left and right children
+    TreeNodePtr leftTree;
+    TreeNodePtr rightTree;
+
+    copyTree((*root)->left, &leftTree);
+    copyTree((*root)->right, &rightTree);
 
 
-    if((*root)->data == value) { //If the node that we will delete is found
+    if(leftTree != NULL){ //We splay the left tree with its max, and merge it with right tree
+        int max = findMax(leftTree);
+        splay(&leftTree, max);
 
-        if((*root)->right == NULL && (*root)->left == NULL){//If the current root is a leaf which means has no children
-            TreeNodePtr temp = *root;
-            *root = NULL;
-            free(temp);
-        }
-        else if((*root)->right != NULL){ //If the right child exist
-            (*root)->data = findMin((*root)->right);   //Change the key with the smallest value in its right subtree
-            delete(&((*root)->right), findMin((*root)->right)); //Delete the duplicate value
-        }
-        else{ //If it has only left child
-            (*root)->data = findMax((*root)->left);
-            delete(&((*root)->left), findMax((*root)->left));
-
-        }
-
+        leftTree->right = rightTree;
+        *root = leftTree;
     }
-    else if(value > (*root)->data){
-        delete(&((*root)->right), value);
+    else{ //If there is no left tree
+        *root = rightTree;
     }
-    else{
-        delete(&((*root)->left), value);
-    }
-
 }
 
 
