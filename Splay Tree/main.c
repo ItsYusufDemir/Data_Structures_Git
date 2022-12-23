@@ -143,15 +143,12 @@ int findMin(TreeNodePtr root){
 
 void delete(TreeNodePtr *root, int value){
 
+
     splay(root, value); //Bring the deleting value to the root
 
     //Separate left and right children
-    TreeNodePtr leftTree;
-    TreeNodePtr rightTree;
-
-    copyTree((*root)->left, &leftTree);
-    copyTree((*root)->right, &rightTree);
-
+    TreeNodePtr leftTree = (*root)->left;
+    TreeNodePtr rightTree = (*root)->right;
 
     if(leftTree != NULL){ //We splay the left tree with its max, and merge it with right tree
         int max = findMax(leftTree);
@@ -163,6 +160,7 @@ void delete(TreeNodePtr *root, int value){
     else{ //If there is no left tree
         *root = rightTree;
     }
+
 }
 
 
