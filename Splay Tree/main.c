@@ -54,20 +54,19 @@ int main() {
     TreeNodePtr root = NULL;
 
 
-    //int items[] = {6,5,3,2,10,30,48,12,11};
+    int itemss[] = {6,5,3,2,10,30,48,12,11};
 
-    //int items[] = {10,30,5,6,3,2,12,48,11};
+    //int itemss[] = {10,30,5,6,3,2,12,48,11};
 
-    int items[] = {50,30,60,10,40,90,70,100,20,15};
+    //int itemss[] = {50,30,60,10,40,90,70,100,20,15};
 
-    for(int i = 0; i < sizeof(items)/sizeof(items[0]); i++){
-        insertNode(&root, items[i]);
-        splay(&root, items[i]);
+    for(int i = 0; i < sizeof(itemss)/sizeof(itemss[0]); i++){
+        insertNode(&root, itemss[i]);
+        splay(&root, itemss[i]);
     }
 
 
-    delete(&root, 70);
-    delete(&root, 40);
+
 
 
     printTree2D(root);

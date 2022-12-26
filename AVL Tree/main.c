@@ -56,9 +56,9 @@ int main() {
 
     TreeNodePtr root = NULL;
 
-    //int items[] = {21,26,30,9,4,14,28,18,15,10,2,3,7};
+    int items[] = {21,26,30,9,4,14,28,18,15,10,2,3,7};
 
-    int items[] = {14, 17, 11, 7, 53, 4, 13, 12,8,60,19,16,20};
+    //int items[] = {14, 17, 11, 7, 53, 4, 13, 12,8,60,19,16,20};
 
     //int items[] = {9,15,20,8,7,13,10};
 
@@ -319,7 +319,6 @@ void rotateLR(TreeNodePtr *root){
     (*root)->left = temp;
 
 };
-
 
 
 
